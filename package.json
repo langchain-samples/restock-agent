@@ -1,0 +1,6 @@
+{
+  "name": "mda-restock-cli-tests",
+  "private": true,
+  "description": "The exact sandbox CLI, installed locally only for offline tests",
+  "devDependencies": {"@stripe/link-cli": "0.22.0"}
+}

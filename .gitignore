@@ -1,0 +1,57 @@
+# Private settings and credentials
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+.npmrc
+.pypirc
+*.pem
+*.key
+*.crt
+*.p8
+*.p12
+*.pfx
+*.jks
+credentials.json
+token.json
+auth.json
+link-session.json
+delivery.json
+
+# Local app, deployment state, and recordings
+.mda/
+.local/
+.restock-export.json
+/recordings/
+*.har
+*.sqlite*
+
+# Dependencies and generated output
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+build/
+dist/
+*.egg-info/
+
+# Checks, logs, and editor files
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+*.log
+/logs/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
